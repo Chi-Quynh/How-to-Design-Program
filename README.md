@@ -1,7 +1,7 @@
 # **How to Design Programs - Notes and Insights**
 
 ## **About the Repository**
-This repository contains my personal notes, summaries, and exercises from the book **"How to Design Programs"** by MIT. It serves as a learning log to document my progress and deepen my understanding of program design principles.
+This repository contains my personal notes, summaries, and exercises from the book **["How to Design Programs"](https://htdp.org/)** by MIT. It serves as a learning log to document my progress and deepen my understanding of program design principles.
 
 ## **Why This Book?**
 As a computer science student, I believe mastering the fundamentals of program design is crucial for:
