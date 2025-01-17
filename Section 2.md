@@ -3,7 +3,7 @@
 (sin pi)
 (max 2 4)
 ## Exc 2.1.2
-(sqrt 4)
+(sqrt 4)\n
 (sqrt 2)
 (sqrt -1)
 (tan 30)
@@ -56,8 +56,58 @@
 ( sum-coins 1 1 1 1 )
 (+ 1 5 10 25)
 
+;Fixed code after comparing solution
+;output: cent
+
+(define (sum-coins pennies nickel dime quarter)
+  (+ pennies (* nickel 5) (* dime 10) (* quarter 25)))
+
+
+;test the function, compare it with real result
+( sum-coins 1 0 0 0 )
+( sum-coins 0 1 0 0 )
+( sum-coins 0 0 1 0 )
+( sum-coins 0 0 0 1 )
+( sum-coins 1 1 1 1 )
 ## Exc 2.3.3
 
+2.4 Errors
+## Exc 2.4.1
+(+(10) 20)
+function call: expected a function after the open parenthesis, but found a number
+(+ +)
+function call: expected a function after the open parenthesis, but found a number
+(10 + 20)
+function call: expected a function after the open parenthesis, but found a number
 
-Lesson:
+## Exc 2.4.2
+; the parameter cannot be number
+(define (f x)
+  (+ x 10 ))
+; the expression + x 10 did not have an opening (
+(define (g x )
+  (+ x 10))
+; the primitive function must follow the open parenthesis
+(define( h x))
+  (+ x 10 ))
+
+## Exc 2.4.3
+(+ 5 (/ 1 0))
+
+(sin 10 20)
+
+(somef 10)
+
+; this function is not defined. It's true bc the open parenthesis expect either an operation or name of the primitive function
+
+## Exc 2.4.4
+( define (somef x)
+  (sin x x ))
+
+(somef 10 20)
+; Expected 1 arguement for the function parameter
+(somef 10)
+; sin expression expected only 1 arguement
+
+# Lesson:
 - Breaking problems down into input, out put and rules
