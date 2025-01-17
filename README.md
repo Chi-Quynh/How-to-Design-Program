@@ -15,9 +15,9 @@ The repository is organized by chapters and includes:
 2. **Summaries**: Key concepts and takeaways.
 
 ## **Progress**
-- [X] Section 2: Numbers, Expressions, Simple Programs (In Progress)
-- [ ] Section 3: 
-- [ ] Section 4: 
+- [X] Section 2
+- [ ] Section 3 (...)
+- [ ] Section 4
 
 ## **How to Use**
 Feel free to explore, clone, or contribute! If you're also studying this book, you can:
