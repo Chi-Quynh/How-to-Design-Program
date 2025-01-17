@@ -3,7 +3,7 @@
 (sin pi)
 (max 2 4)
 ## Exc 2.1.2
-(sqrt 4)\n
+(sqrt 4)
 (sqrt 2)
 (sqrt -1)
 (tan 30)
