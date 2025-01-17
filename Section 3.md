@@ -1,4 +1,5 @@
 ## 3.3.1
+```
 (define INCH-CM 2.54)
 (define FOOT-IN 12)
 (define YARD-FOOT 3)
@@ -81,8 +82,9 @@
    (rod->yard
     (furlong->rod
      (mile->furlong mile)))))
-
+```
 ## 3.3.2
+```
 ;;type: number->number
 ;;input base and height-> volume of cylinder
 (define (volume-cylinder radius height)
@@ -97,8 +99,9 @@
 (volume-cylinder 3 2)
 ( * 18 pi) ;;should be the same as volume-cylinder
 
-
+```
 ## 3.3.3
+```
 ;;area-cylinder: number->number
 ;;to get the surface area of the cylinder
 (define (area-cylinder radius height)
@@ -121,3 +124,5 @@
 (cylinder-base 3)
 (area-cylinder 2 3)
 (area-cylinder 3 4)
+```
+```
