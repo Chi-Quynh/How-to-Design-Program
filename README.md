@@ -11,8 +11,9 @@ As a computer science student, I believe mastering the fundamentals of program d
 
 ## **Structure**
 The repository is organized by chapters and includes:
-1. **Exercises**: My solutions.
-2. **Summaries**: Key concepts and takeaways.
+1. **Lesson**: Key concepts and takeaways.
+2. **Exercises**: My solutions.
+
 
 ## **Progress**
 - [X] Section 2
