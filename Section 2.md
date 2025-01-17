@@ -1,14 +1,16 @@
 ## Exc 2.1.1
-'''
+```
 (sqrt 4)
 (sin pi)
 (max 2 4)
-'''
+```
 ## Exc 2.1.2
+```
 (sqrt 4)
 (sqrt 2)
 (sqrt -1)
 (tan 30)
+```
 
 ## Exc 2.2.1
 (define (Fahrenheit->Celsius fah)
