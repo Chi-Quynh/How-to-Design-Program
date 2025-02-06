@@ -1,11 +1,15 @@
-Lesson:
+## Lesson:
 - Learned to understand how Boolean condition works
-# 4.1.1
+- Ehanced my ability to simplify problem
+- Learned the importance of abstraction 
+## 4.1.1
+```
 1. (and ( T ) ( T ) ) => True
 2. (or ( T ) ( F ) ) => True 
 3. ( not (F ) ) => True
-
-# 4.1.2
+```
+## 4.1.2
+```
 1. 
 (a) => T
 (b) => F
@@ -18,8 +22,9 @@ Lesson:
 (a)(= (16)4) => F
 (b)(= (4)2) => F
 (c)(= (49/4)7/2) => F
-
-# 4.2.1
+```
+## 4.2.1
+```
 1. 
 (and ( > x 3 )( <= x 7 ))
 2.
@@ -30,17 +35,19 @@ Lesson:
 (or ( and ( > x 1 ) ( < x 3)) ( and ( > x 9)(< x 11)))
 5.
 (or ( < x 1)( > x 3))
-
-# 4.2.2
+```
+## 4.2.2
+```
 <img>
 1. (in-interval-1? -2) T
 2. (in-interval-2? -2) T
 3. (in-interval-3? -2) T
 
 Show the important steps. Use the pi
+```
 
-#4.2.3
-
+## 4.2.3
+```
 ;;number->bool
 ;;1 check of the int is the solution
 (define (int-interval-1 int)
@@ -68,9 +75,10 @@ Show the important steps. Use the pi
 (int-interval-3 10) ;;should be T
 (int-interval-3 12) ;;should be F
 (int-interval-3 14) ;;should be F
+```
 
-# 4.2.4
-
+## 4.2.4
+```
 ;;## Exc 2.2.1
 (define (Fahrenheit->Celsius fah)
   (/(- fah 32)(/ 9 5 )))
@@ -91,8 +99,9 @@ Show the important steps. Use the pi
 (define (convert3 one two three)
   (+ one (* two 10)(* three 100)))
 (=(convert3 1 2 3)321)
-
+```
 ## 4.3.1
+```
 (cond
   [(< n 10) 20]
   [(and (> n 20) (<= n 30)) 3.0 ]
@@ -105,18 +114,21 @@ Show the important steps. Use the pi
       [else 555]) ;     
 
 ;;1. The 2nd condition does not have parentes to close off the function. 2) The condition does not have 2nd arguement of type answer
-
+```
 ## 4.3.2
+```
 (a) 500=> 0.040
 (b) 2800 => 0.045
 (c) 15000 => 0.060
-
+```
 ## 4.3.3
+```
 (a) 500 => 40
 (b) 2800 => 121
 (c) 15000 => 495
-
+```
 ## 4.4.1
+```
 ;;int -> int
 ;;data analysis: 1000 < 4% , 5000 4.5%, 5000 up 5%
 ;;ex: 1000 -> 40
@@ -133,8 +145,9 @@ Show the important steps. Use the pi
 (interest 500) ;;20
 (interest 2000) ;;90
 (interest 10000) ;;500
-
+```
 ## 4.4.2
+```
 ;;int gross pay ->int tax
 ;;get gross pay returns tax owned
 (define ( tax gross-pay)
@@ -166,8 +179,9 @@ Show the important steps. Use the pi
 
 (net-pay 1 )
 (net-pay 40)
-
-;;4.4.3
+```
+## 4.4.3
+```
 (define (pay-back money )
   (cond
     [ ( <= money 500 ) ( first500 money)]
@@ -194,9 +208,9 @@ Show the important steps. Use the pi
 ( pay-back 1400)
 ( pay-back 2000)
 ( pay-back 2600)
-
-;;4.4.4
-
+```
+## 4.4.4
+```
 ;;number number number -> number
 ;;computes solutions of a quadratic equation
 ;;ex
@@ -215,5 +229,5 @@ Show the important steps. Use the pi
   )
  ;;if the equation is not proper, it would not have a =/= 0, therefore it wont be guaranteed quadratic -> bx + c = 0 -> cannot use how-many as indicator of solution anymore
 
-
+```
 
