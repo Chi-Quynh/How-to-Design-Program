@@ -1,9 +1,10 @@
-Lesson:
+## Lesson:
 - Constants name for cohesive variable 
 - Aux and main function breakdown
 - Cohesive function that serves readability 
 
 ## 3.3.1
+```
 (define INCH-CM 2.54)
 (define FOOT-IN 12)
 (define YARD-FOOT 3)
@@ -86,8 +87,9 @@ Lesson:
    (rod->yard
     (furlong->rod
      (mile->furlong mile)))))
-
-#3.3.2
+```
+## 3.3.2
+```
 ;;type: number->number
 ;;input base and height-> volume of cylinder
 (define (volume-cylinder radius height)
@@ -102,8 +104,9 @@ Lesson:
 (volume-cylinder 3 2)
 ( * 18 pi) ;;should be the same as volume-cylinder
 
-
-#3.3.3
+```
+## 3.3.3
+```
 ;;area-cylinder: number->number
 ;;to get the surface area of the cylinder
 (define (area-cylinder radius height)
@@ -127,8 +130,9 @@ Lesson:
 (area-cylinder 2 3)
 (area-cylinder 3 4)
 
-
+```
 ## 3.3.4
+```
 ;;input: number number number ->number
 ;;calc surface area of pipe using no helper function
 (define (surface-pipe-onedef inner height thick )
@@ -182,7 +186,10 @@ Lesson:
 
 (speed 10 1)
 (height 10 10)
-
+```
 ## 3.3.6
+```
 | Fahrenheit->Celsius f | -> x -> | Celsius->Fahrenheit x | -> f
 ;;it suggests that function (I f ) is x = I(f) where x = f, input = output
+
+```
